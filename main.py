@@ -43,7 +43,7 @@ for row in rowData:
             stringunProcessed = stringunProcessed.replace("\n","")
             tempList.append(stringunProcessed.replace("&nbsp", ""))
         else:
-            stringunProcessed = columnData.find_element('xpath','ba-ega-entgelt-betrag/span').get_property('innerHTML');
+            stringunProcessed = columnData.find_element('xpath','ba-ega-entgelt-betrag/span').get_property('innerHTML')
             stringunProcessed.replace("\n","")
             tempList.append(stringunProcessed.replace("&nbsp", ""))
  
